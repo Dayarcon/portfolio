@@ -6,19 +6,21 @@
         <title>Portfolio</title>
         <link href="style.css" rel="stylesheet" type="text/css">
         <!--box link-->
-        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <!--remix icon link-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
         <!--google fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:ital,wght@0,500;1,200&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+        <!--animation link-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
     <header>
     <a href="#" class="logo">Coder<span>X.</span></a>
-        <div clas="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
         <ul class="navlist">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -33,16 +35,16 @@
     </header>
     <!--content-->
     <section class="content" id="home">
-    <div class="main-content">
+    <div class="main-content" data-aos="fade-in">
         <h4>Welcome to my Portfolio!</h4>
     <h1>I am <span>Rahul Kushwaha</span></h1>
     <p>a passionate web developer with a interest in creating user friendly and visually appealing website. With a solid background in front end and 
     back end development, I bring creativity and technical expert in every project.</p>
     <div class="social">
-        <a href="#"><i class="ri-facebook-fill"></i></a>
-        <a href="#"><i class="ri-instagram-line"></i></a>
-        <a href="#"><i class="ri-twitter-x-line"></i></a>
-        <a href="#"><i class="ri-mail-line"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100010980789218"><i class="ri-facebook-line"></i></a>
+        <a href="https://www.instagram.com/_rahul.kushwaha_/"><i class="ri-instagram-line"></i></a>
+        <a href="https://twitter.com/livespof"><i class="ri-twitter-x-line"></i></a>
+        <a href="https://github.com/Dayarcon"><i class="ri-github-line"></i></a>
     </div>
     <div class="main-btn">
         <a href="#" class="btn">Hire me</a>
@@ -52,10 +54,10 @@
     </section>
     <!--about-->
     <section class="about" id="about">
-    <div class="about-img">
+    <div class="about-img" data-aos="zoom-in-down">
     <img src="rahul_1(2).jpeg" alt="">
     </div>
-    <div class="about-text">
+    <div class="about-text" data-aos="zoom-in-up">
     <h2>I am Web <span>Developer</span></h2>
     <div class="expe">
     <p class="exp">Experience:
@@ -73,10 +75,10 @@
     </section>
     <!--service-->
     <section class="service" id="service">
-    <div class="text-center">
+    <div class="text-center" data-aos="fade-down">
     <h2>My <span>Services</span></h2>
     </div>
-    <div class="services">
+    <div class="services" data-aos="zoom-in-down">
     <div class="box">
     <img src="" alt="">
     <h3>UI/UX Design</h3>
@@ -99,10 +101,10 @@
     </section>
     <!--portfolio-->
     <section class="portfolio" id="portfolio">
-    <div class="text-center">
+    <div class="text-center" data-aos="fade-up">
     <h2>My <span>Portfolio</span></h2>
     </div>
-    <div class="portfolio-text">
+    <div class="portfolio-text" data-aos="zoom-in-down">
         <div class="row">
             <img src="" alt="">
             <div class="main-row">
@@ -155,10 +157,10 @@
     </section>
     <!--contact-->
     <section class="contact" id= "contact">
-    <div class="text-center">
+    <div class="text-center" data-aos="fade-down">
     <h2>Contact <span>Me</span></h2>
     </div>
-    <div class="contact-form">
+    <div class="contact-form" data-aos="zoom-in">
     <form action="">
     <input type="text" placeholder="Your Name" required>
         <input type="Email" placeholder="Email Address..." required>
@@ -178,5 +180,13 @@
     </a>
     </div> 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script>
+    AOS.init({
+        offset:300,
+        duration:1400,
+    });
+    </script>
     </body>
 </html>
