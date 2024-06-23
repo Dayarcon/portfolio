@@ -12,7 +12,7 @@ const About = () => (
         <p className="exp">Skills: <span>HTML, CSS, Javascript, Github, Aws Trained</span></p>
         <p className="exp">Address: <span>New Delhi, India</span></p>
         <p className="exp">Email: <span>rahul.kushwaha9140@gmail.com</span></p>
-        <p calssName="exp">Linkedin:<a herf='www.linkedin.com/in/rahul-kushwaha-796282213'><span>rahul-kushwaha-796282213</span></a></p>
+        <p className="exp">Linkedin:<a herf='www.linkedin.com/in/rahul-kushwaha-796282213'><span>rahul-kushwaha-796282213</span></a></p>
         <p className="exp">Phone: <span>+91 8882173537</span></p>
         <p className="exp">Freelancer: <span>Available</span></p>
       </div>
